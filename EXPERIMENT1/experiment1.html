@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JAPNEET SINGH | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f0f4f8; color: #333; margin: 0; padding: 20px; max-width: 900px; margin-left: auto; margin-right: auto;">
+<body class="font-sans bg-[#f0f4f8] text-[#333] p-5 max-w-[900px] mx-auto">
 
-  <h1 style="text-align: center; color: #0a3d62; font-weight: 900; margin-bottom: 10px;">Japneet Singh Portfolio Website</h1>
-  <img src="./download.jpg" alt="Photo of Japneet Singh" style="display: block; max-width: 180px; border-radius: 50%; margin: 0 auto 15px auto; box-shadow: 0 0 15px rgba(10, 61, 98, 0.3);" />
-  <p style="text-align: center; font-style: italic; font-weight: 600; color: #0984e3; margin-bottom: 30px;">Computer Science Student & Web Developer</p>
+  <h1 class="text-center text-[#0a3d62] font-extrabold text-3xl mb-2">Japneet Singh Portfolio Website</h1>
 
-  <p style="line-height: 1.6; font-size: 1.1rem; max-width: 700px; margin-left: auto; margin-right: auto;">
+  <img src="./download.jpg" alt="Photo of Japneet Singh" class="block max-w-[180px] rounded-full mx-auto mb-4 shadow-lg" />
+
+  <p class="text-center italic font-semibold text-[#0984e3] mb-8">Computer Science Student & Web Developer</p>
+
+  <p class="leading-relaxed text-lg max-w-[700px] mx-auto">
     Passionate B.Tech Computer Science student with a strong foundation in
     programming (C, C++, Java, Python) and web development. Skilled in
     databases like MySQL and MongoDB, and experienced with tools like React,
@@ -21,15 +24,15 @@
     growing in the tech space.
   </p>
 
-  <h2 style="color: #0a3d62; margin-top: 40px;">Links to Connect</h2>
-  <ul style="list-style-type: none; padding: 0; display: flex; gap: 25px; justify-content: center; margin-bottom: 40px;">
-    <li><a href="#" target="_blank" style="text-decoration: none; color: #0984e3; font-weight: 600; border-bottom: 2px solid transparent; transition: border-color 0.3s;">GitHub</a></li>
-    <li><a href="#" target="_blank" style="text-decoration: none; color: #0984e3; font-weight: 600; border-bottom: 2px solid transparent; transition: border-color 0.3s;">LinkedIn</a></li>
-    <li><a href="#" target="_blank" style="text-decoration: none; color: #0984e3; font-weight: 600; border-bottom: 2px solid transparent; transition: border-color 0.3s;">LeetCode</a></li>
+  <h2 class="text-[#0a3d62] text-2xl font-semibold mt-10">Links to Connect</h2>
+  <ul class="list-none p-0 flex gap-6 justify-center mb-10">
+    <li><a href="#" target="_blank" class="text-[#0984e3] font-semibold hover:border-b-2 border-[#0984e3] transition duration-300">GitHub</a></li>
+    <li><a href="#" target="_blank" class="text-[#0984e3] font-semibold hover:border-b-2 border-[#0984e3] transition duration-300">LinkedIn</a></li>
+    <li><a href="#" target="_blank" class="text-[#0984e3] font-semibold hover:border-b-2 border-[#0984e3] transition duration-300">LeetCode</a></li>
   </ul>
 
-  <h2 style="color: #0a3d62;">Skills</h2>
-  <ul style="max-width: 700px; margin-left: auto; margin-right: auto; line-height: 1.6; font-size: 1.1rem; padding-left: 20px;">
+  <h2 class="text-[#0a3d62] text-2xl font-semibold">Skills</h2>
+  <ul class="max-w-[700px] mx-auto leading-relaxed text-lg list-disc pl-5">
     <li><strong>Languages:</strong> C, C++, Java, HTML5, CSS, JavaScript, SQL</li>
     <li><strong>Technologies & Frameworks:</strong> Node.js, Express.js, EJS, React.js, Redux, REST APIs, Tailwind, Bootstrap</li>
     <li><strong>Database Management:</strong> MySQL, MongoDB</li>
@@ -37,27 +40,27 @@
     <li><strong>Tools:</strong> AutoCAD, Git, GitHub, VS Code</li>
   </ul>
 
-  <h2 style="color: #0a3d62; margin-top: 40px;">Projects</h2>
-  <ol type="I" style="max-width: 700px; margin-left: auto; margin-right: auto; font-size: 1.1rem; line-height: 1.6; padding-left: 20px;">
-    <li style="margin-bottom: 15px;">
+  <h2 class="text-[#0a3d62] text-2xl font-semibold mt-10">Projects</h2>
+  <ol type="I" class="max-w-[700px] mx-auto text-lg leading-relaxed list-decimal pl-5">
+    <li class="mb-4">
       <strong>IoT-Based Gas Leakage Detection System with Automatic Cutoff</strong>
-      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+      <ul class="list-disc ml-5 mt-1">
         <li>Real-time gas leakage detection using MQ5 sensor and ESP8266 Wi-Fi module</li>
         <li>Automatic gas supply cutoff using a servo motor on leakage detection</li>
         <li>Instant real-time alerts via Blynk App with status updates and warnings</li>
       </ul>
     </li>
-    <li style="margin-bottom: 15px;">
+    <li class="mb-4">
       <strong>SmartGig Freelancing Website</strong>
-      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+      <ul class="list-disc ml-5 mt-1">
         <li>Integrated secure payment gateways for safe transactions</li>
         <li>Developed responsive UI/UX for a seamless user experience</li>
         <li>Designed a dynamic full-stack platform to connect freelancers and clients</li>
       </ul>
     </li>
-    <li style="margin-bottom: 15px;">
+    <li class="mb-4">
       <strong>WanderLust – Airbnb Clone</strong>
-      <ul style="list-style-type: disc; margin-left: 20px; margin-top: 5px;">
+      <ul class="list-disc ml-5 mt-1">
         <li>Full-stack web app for booking and managing travel stays with secure authentication</li>
         <li>Geolocation-based listings using Mapbox, multi-image uploads via Cloudinary</li>
         <li>Modular MVC architecture with error handling, session control, and flash messaging</li>
@@ -65,57 +68,60 @@
     </li>
   </ol>
 
-  <h2 style="color: #0a3d62; margin-top: 40px;">Qualifications</h2>
-  <table border="1" style="width: 100%; border-collapse: collapse; max-width: 700px; margin-left: auto; margin-right: auto; font-size: 1.1rem;">
-    <thead style="background-color: #0984e3; color: white;">
-      <tr>
-        <th style="padding: 10px;">Qualification</th>
-        <th style="padding: 10px;">Institution</th>
-        <th style="padding: 10px;">Year</th>
-        <th style="padding: 10px;">Percentage / CGPA</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr style="background-color: #dfe6e9;">
-        <td style="padding: 10px;">Bachelor of Engineering (CSE)</td>
-        <td style="padding: 10px;">Chandigarh University</td>
-        <td style="padding: 10px; text-align: center;">2027</td>
-        <td style="padding: 10px; text-align: center;">9.02 CGPA</td>
-      </tr>
-      <tr>
-        <td style="padding: 10px;">12th (Science)</td>
-        <td style="padding: 10px;">DCM PRESIDENCY</td>
-        <td style="padding: 10px; text-align: center;">2023</td>
-        <td style="padding: 10px; text-align: center;">92.6%</td>
-      </tr>
-      <tr style="background-color: #dfe6e9;">
-        <td style="padding: 10px;">10th</td>
-        <td style="padding: 10px;">DCM PRESIDENCY</td>
-        <td style="padding: 10px; text-align: center;">2021</td>
-        <td style="padding: 10px; text-align: center;">92.4%</td>
-      </tr>
-    </tbody>
-  </table>
+  <h2 class="text-[#0a3d62] text-2xl font-semibold mt-10">Qualifications</h2>
+  <div class="overflow-x-auto">
+    <table class="w-full max-w-[700px] mx-auto text-lg border border-gray-300">
+      <thead class="bg-[#0984e3] text-white">
+        <tr>
+          <th class="p-3">Qualification</th>
+          <th class="p-3">Institution</th>
+          <th class="p-3">Year</th>
+          <th class="p-3">Percentage / CGPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="bg-gray-200">
+          <td class="p-3">Bachelor of Engineering (CSE)</td>
+          <td class="p-3">Chandigarh University</td>
+          <td class="p-3 text-center">2027</td>
+          <td class="p-3 text-center">9.02 CGPA</td>
+        </tr>
+        <tr>
+          <td class="p-3">12th (Science)</td>
+          <td class="p-3">DCM PRESIDENCY</td>
+          <td class="p-3 text-center">2023</td>
+          <td class="p-3 text-center">92.6%</td>
+        </tr>
+        <tr class="bg-gray-200">
+          <td class="p-3">10th</td>
+          <td class="p-3">DCM PRESIDENCY</td>
+          <td class="p-3 text-center">2021</td>
+          <td class="p-3 text-center">92.4%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-  <h2 style="color: #0a3d62; margin-top: 40px;">Contact Me</h2>
-  <form action="script.js" method="POST" style="max-width: 700px; margin-left: auto; margin-right: auto; font-size: 1.1rem;">
-    <label for="name" style="font-weight: 600;">Name:</label><br />
+  <h2 class="text-[#0a3d62] text-2xl font-semibold mt-10">Contact Me</h2>
+  <form action="script.js" method="POST" class="max-w-[700px] mx-auto text-lg">
+    <label for="name" class="font-semibold">Name:</label><br />
     <input type="text" id="name" name="name" placeholder="Enter your name" required
-           style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;" /><br /><br />
+           class="w-full p-2 mt-1 border border-gray-300 rounded mb-4" />
 
-    <label for="email" style="font-weight: 600;">Email:</label><br />
+    <label for="email" class="font-semibold">Email:</label><br />
     <input type="email" id="email" name="email" placeholder="Enter your email" required
-           style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;" /><br /><br />
+           class="w-full p-2 mt-1 border border-gray-300 rounded mb-4" />
 
-    <label for="feedback" style="font-weight: 600;">Feedback:</label><br />
-    <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Enter your feedback"
-              style="width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px; box-sizing: border-box;"></textarea><br /><br />
+    <label for="feedback" class="font-semibold">Feedback:</label><br />
+    <textarea id="feedback" name="feedback" rows="4" placeholder="Enter your feedback"
+              class="w-full p-2 mt-1 border border-gray-300 rounded mb-4"></textarea>
 
-    <button type="submit" style="background-color: #0984e3; color: white; padding: 10px 25px; border: none; border-radius: 5px; cursor: pointer; font-weight: 700; transition: background-color 0.3s;">
+    <button type="submit"
+            class="bg-[#0984e3] text-white px-6 py-2 rounded font-bold hover:bg-[#0a73c2] transition duration-300">
       Submit
     </button>
   </form>
 
-  <p style="text-align: center; margin-top: 50px; font-size: 0.9rem; color: #666;">&copy; 2025 Japneet Singh. All rights reserved.</p>
+  <p class="text-center mt-12 text-sm text-gray-500">&copy; 2025 Japneet Singh. All rights reserved.</p>
 </body>
 </html>
