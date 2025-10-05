@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Cart = () => {
-  // Dummy cart items for demo (replace with your state or context)
+  // Dummy cart items for demo (replace with your state or context) 
   const cartItems = [
     { id: 1, name: 'Cool Sneakers', price: 79.99, quantity: 2, image: 'https://via.placeholder.com/80' },
     { id: 2, name: 'Stylish Jacket', price: 149.99, quantity: 1, image: 'https://via.placeholder.com/80' },
@@ -132,3 +132,4 @@ const Cart = () => {
 };
 
 export default Cart;
+
